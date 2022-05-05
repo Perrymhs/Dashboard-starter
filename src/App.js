@@ -1,4 +1,7 @@
 import './App.css'
+import CustomerReview from './components/CustomerReview/CustomerReview';
+import MainDash from './components/MainDash/MainDash';
+import RightSide from './components/RightSide/RightSide';
 import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
@@ -6,8 +9,9 @@ function App() {
     <div className="App">
       <div className='AppGlass'>
         <Sidebar/>
-        <div></div>
-        <div></div>
+        <MainDash/>
+        <RightSide/>
+        <CustomerReview/>
       </div>
     </div>
   );
